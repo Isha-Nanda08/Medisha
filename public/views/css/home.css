@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 14px;
+    background: #fff;
+    color: #121414;
+    display: block;
+    width: 100%;
+}
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.sticky-nav .head-nav{
+    background: #fff;
+}
+header{
+    display: block;
+}
+.head-nav .head-nav-full{
+    border-bottom: 1px solid #e7e7e5;
+}
+.head-nav .head-nav-full .header-container{
+    width: 100%;
+    max-width: 1276px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.head-nav .head-nav-full .header-container .header-bottom .header-left{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    flex-direction: row;
+    height: 48px;
+    order: 1;
+}
+
+.logo-main{
+    margin-right: 26px;
+}
+.logo-main .logo-icon{
+    width: 70px;
+    height: 48px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.logo-main>a{
+    text-decoration: none;
+    color: inherit;
+    outline: 0;
+    display: inline-block;
+}
+
+.location-header{
+    width: 180px;
+}
+.Header_searchPlaceholder__fmZ3s{
+    order: 2;
+}
+.head-nav .head-nav-full .header-container .header-bottom .header-right{
+    margin-left: auto;
+    width: auto;
+    order: 3;
+}
+.head-nav .head-nav-full .header-container .header-bottom .header-right .header-nav-box{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    flex-direction: row;
+    gap: 8px;
+}
+ul{
+    /* display: block; */
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.Header_cartNofify{
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+}
+.login-header{
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+}
+
+li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+        unicode-bidi: isolate;
+    }
+.item-nav{
+    width: 100%;
+    background: #1a504c;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 7;
+    top: 101px;
+}
+.item-nav .container{
+    width: 100%;
+    max-width: 1276px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.menu-main{
+    height: 48px;
+    width: 100%;
+    color: #fff;
+}
+
+.menu-list{
+    list-style: none;
+    display: flex;
+    display: -webkit-flex;
+    align-items: stretch;
+    -webkit-align-items: stretch;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    flex-direction: row;
+    height: 100%;
+    color: white;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.menu-list>li{
+    position: relative;
+    transition: all .2s ease-in-out;
+    padding: 0 4px;
+    color: #fff;
+}
+.menu-list>li>a{
+    color: #fafbf9;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 6px;
+    transition: all .2s ease-in-out;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.main-search-root{
+    height: 180px;
+        overflow: hidden;
+        width: 100%;
+        background: #162c2a;
+}
+.main-search-inside{
+    background-position: -20% 100%, 120% 100%;
+        background-size: 250px;
+        max-width: 1340px;
+        height: 100%;
+        margin: 0 auto;
+        background-image: url(https://images.apollo247.in/images/ui_revamp_searchBanner1.svg), url(https://images.apollo247.in/images/ui_revamp_searchBanner2.svg);
+        background-position: 0 100%, 100% 100%;
+        background-repeat: no-repeat;
+}
+.main-inside-search-container{
+    padding: 24px 0;
+        margin: 0 auto;
+        max-width: 628px;
+        text-align: center;
+        background-color: #1b2626;
+    }
+.title-buy{
+    font-size: 30px;
+    margin-bottom: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.search-placeholder{
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    border-radius: 8px;
+    border-radius: 8px;
+    border-radius: 8px;
+    padding: 10px 16px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    flex-direction: row;
+    background: #f7f7f7;
+    text-align: center;
+    height: 56px;
+}
+#searchProduct{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    height: 100%;
+
+}
+.search-placeholder>input{
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
