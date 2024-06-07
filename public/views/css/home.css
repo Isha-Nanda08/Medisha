@@ -36,7 +36,6 @@ header{
 }
 .head-nav .head-nav-full .header-container .header-bottom .header-left{
     display: flex;
-    display: -webkit-flex;
     align-items: center;
     -webkit-align-items: center;
     justify-content: flex-start;
@@ -53,7 +52,6 @@ header{
     width: 70px;
     height: 48px;
     display: flex;
-    display: -webkit-flex;
     align-items: center;
     -webkit-align-items: center;
     justify-content: center;
@@ -82,7 +80,6 @@ header{
 }
 .head-nav .head-nav-full .header-container .header-bottom .header-right .header-nav-box{
     display: flex;
-    display: -webkit-flex;
     align-items: center;
     -webkit-align-items: center;
     justify-content: flex-end;
@@ -103,7 +100,6 @@ ul{
 .Header_cartNofify{
     position: relative;
     display: flex;
-    display: -webkit-flex;
     align-items: center;
     -webkit-align-items: center;
     justify-content: center;
@@ -113,7 +109,6 @@ ul{
 .login-header{
     position: relative;
     display: flex;
-    display: -webkit-flex;
     align-items: center;
     -webkit-align-items: center;
     justify-content: center;
@@ -149,7 +144,6 @@ li {
 .menu-list{
     list-style: none;
     display: flex;
-    display: -webkit-flex;
     align-items: stretch;
     -webkit-align-items: stretch;
     justify-content: space-between;
@@ -177,7 +171,6 @@ li {
     padding: 0 6px;
     transition: all .2s ease-in-out;
     display: flex;
-    display: -webkit-flex;
     align-items: center;
     -webkit-align-items: center;
     justify-content: center;
@@ -226,11 +219,10 @@ li {
     border-radius: 8px;
     padding: 10px 16px;
     display: flex;
-    display: -webkit-flex;
     align-items: center;
-    -webkit-align-items: center;
+    /* -webkit-align-items: center; */
     justify-content: flex-start;
-    -webkit-justify-content: flex-start;
+    /* justify-content: flex-start; */
     flex-direction: row;
     background: #f7f7f7;
     text-align: center;
@@ -245,26 +237,18 @@ li {
 
 }
 .search-placeholder>input{
-    text-rendering: auto;
-    color: fieldtext;
     letter-spacing: normal;
     word-spacing: normal;
     line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
     display: inline-block;
     text-align: start;
-    appearance: auto;
-    -webkit-rtl-ordering: logical;
     cursor: text;
-    background-color: field;
-    margin: 0em;
+    /* background-color: field; */
+    /* margin: 0em; */
     padding: 1px 0px;
     border-width: 2px;
-    border-style: inset;
-    border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-image: initial;
-    padding-block: 1px;
-    padding-inline: 2px;
+    border-style:double;
+    border-color: light-dark(rgb(176, 175, 175), rgb(133, 133, 133));
+    /* padding-block: 1px; */
+    /* padding-inline: 2px; */
 }
