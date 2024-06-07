@@ -199,7 +199,7 @@ li {
         max-width: 1340px;
         height: 100%;
         margin: 0 auto;
-        background-image: url(https://images.apollo247.in/images/ui_revamp_searchBanner1.svg), url(https://images.apollo247.in/images/ui_revamp_searchBanner2.svg);
+        background-image: url(), url();
         background-position: 0 100%, 100% 100%;
         background-repeat: no-repeat;
 }
