@@ -1,8 +1,10 @@
 .footer {
-    background-color: #24413f;
-    padding: 30px 0;
+    background-image: linear-gradient(to right, hsla(176, 41%, 36%, 0.873) , hsla(178, 25%, 20%, 0.933));
+    padding: 20px 0;
     border-top: 1px solid #ddd;
-    border: radius top 5ex;
+    /* border: radius top 5ex; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     
   }
   
@@ -22,12 +24,17 @@
   .footer .col-md-4 {
     width: 33.33%;
     padding: 20px;
+    /* margin-left: 2%; */
   }
   
   .footer h3 {
     font-size: 18px;
     font-weight: bold;
     margin-top: 0;
+  }
+
+  .footer .bottom{
+    margin-top: 35px;
   }
   
   .footer ul {
@@ -41,12 +48,12 @@
   }
   
   .footer a {
-    color: #ebecec;
+    color: #bcd8d8;
     text-decoration: none;
   }
   
   .footer a:hover {
-    color: #23527c;
+    color: #03090f;
   }
   
   .social-icons {
