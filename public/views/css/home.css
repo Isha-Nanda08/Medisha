@@ -285,7 +285,8 @@ li {
     border: 5px solid black;
     border-radius: 5px;
     padding:20px;
-    background-color: #daddd7;
+    background-color: #F7FFF8;
+    /* background-color: #daddd7; */
     /* background-image: url(/public/search.webp); */
     /* backface-visibility: hidden; */
 }

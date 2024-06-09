@@ -1,5 +1,5 @@
 .footer {
-    background-image: linear-gradient(to right, hsla(176, 41%, 36%, 0.873) , hsla(178, 25%, 20%, 0.933));
+    background-image: linear-gradient( rgb(34, 95, 92), #0d3734);
     padding: 20px 0;
     border-top: 1px solid #ddd;
     /* border: radius top 5ex; */
@@ -48,7 +48,7 @@
   }
   
   .footer a {
-    color: #bcd8d8;
+    color: #7cb8b8;
     text-decoration: none;
   }
   
@@ -89,6 +89,13 @@
   
   .copyright {
     font-size: 14px;
-    color: #666;
+    color: #f5f1f1;
     margin-top: 20px;
+    justify-content: center;
+  }
+
+  .row .col-md-12{
+    justify-content: center;
+    text-align: center;
+    
   }
