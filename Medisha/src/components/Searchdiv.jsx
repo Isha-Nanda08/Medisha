@@ -3,7 +3,7 @@ import styled from "styled-components";
 import backgroundImage from "../assets/ack-medisha.png";
 
 const Container=styled.div`
-  top:45px;
+  top:48px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +27,7 @@ const Wrapper=styled.div`
 display:flex;
 flex-direction:column;
 align-items:center;
-justify-content:flex-start;
+justify-content:center;
 
 
   background-position: -20% 100%, 120% 100%;
@@ -41,14 +41,35 @@ justify-content:flex-start;
         background-repeat:repeat;
 `;
 const SearchContainer=styled.div`
-        padding: 20px 20px;
-        height:100%;
+        padding: 20px 0px;
+        height:95%;
         width: 728px;
         text-align: center;
         background-color: #1a3131;
         border: 4px solid black;
+        border-radius: 10px;
         margin-top: 0px;`;
 const MainSearch=styled.div`
+width: 100%;
+    border: 1px solid #e7e7e7;
+    border-radius: 8px;
+    border-radius: 8px;
+    border-radius: 8px;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    /* -webkit-align-items: center; */
+    justify-content: flex-start;
+    /* justify-content: flex-start; */
+    flex-direction: row;
+    background: #f7f7f7;
+    text-align: center;
+    height: 40px;
+    position: sticky;
+    z-index: 59;
+    top: 0;
+    margin-top: 0;
+    color: #000;
 `;
 const Title=styled.h1`
 font-size: 30px;
@@ -59,7 +80,9 @@ font-size: 30px;
     font-weight: 700;
     color: #fff;
 `;
-const Input=styled.div``;
+const Input=styled.div`
+color:#000;
+border: none;`
 
 const Searchdiv = () => {
   return (
@@ -69,7 +92,7 @@ const Searchdiv = () => {
             <Title>Search your product here</Title>
             <MainSearch>
                     <Input placeholder="Search"/>
-                    <Search style={{color:"grey",fontSize:16}}/>
+                    <Search style={{fontSize:16}}/>
             </MainSearch>
                         </SearchContainer>
         </Wrapper>
