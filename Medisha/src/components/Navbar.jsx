@@ -93,7 +93,7 @@ const MenuItem=styled.div`
     
     &:hover{
         background-color: #${props=>props.change="121414"};
-        border-radius: 10px;
+        border-radius: 4px;
         transform:scale(1.08);
 
     }
