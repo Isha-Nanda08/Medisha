@@ -10,13 +10,14 @@ import { useState } from "react";
 
 const Container=styled.div`
     font-weight: 400;
-    
+    display: flex;
+    flex-direction:column;
     color: #000;
     height: 50px;
     background-color: #e8e2ee62;
     position: sticky;
     margin:0;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     `
     /* top: 30px;` */
@@ -92,7 +93,7 @@ const MenuItem=styled.div`
     padding: 15px 15px;
     
     &:hover{
-        background-color: #${props=>props.change="121414"};
+        background-color:#${props=>props.change="121414"};
         border-radius: 4px;
         transform:scale(1.08);
 
