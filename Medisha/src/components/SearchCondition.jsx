@@ -9,7 +9,7 @@ const Container=styled.div`
     /* text-align: left; */
     font-size: 1.2rem;
     justify-content: left;
-    transition: all ease 0.2s;
+    transition: all ease 0.2s ;
     &:hover{
         background-color: #689287;
         transform: translateY(-5px);
