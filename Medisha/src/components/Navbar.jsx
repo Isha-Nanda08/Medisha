@@ -9,12 +9,13 @@ import { useState } from "react";
 
 
 const Container=styled.div`
+z-index: 20;
     font-weight: 400;
     display: flex;
     flex-direction:column;
     color: #000;
     height: 50px;
-    background-color: #e8e2ee62;
+    background-color: #fff;
     position: sticky;
     margin:0;
     /* position: sticky; */

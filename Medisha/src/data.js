@@ -41,3 +41,51 @@ export const searchConditions=[
     
 
 ];
+
+export const sliderItems=[
+    {
+        id:1,
+        img:"/src/assets/ack-medisha.png",
+        Desc:"Pain-relief",
+    },
+    {
+        id:2,
+        img:"/src/assets/ack-medisha.png",
+        Desc:"Pain-relief",
+    },
+    {
+        id:3,
+        img:"/src/assets/ack-medisha.png",
+        Desc:"Pain-relief",
+    },
+    {
+        id:4,
+        img:"/src/assets/ack-medisha.png",
+        Desc:"Pain-relief",
+    },
+    {
+        id:5,
+        img:"/src/assets/ack-medisha.png",
+        Desc:"Pain-relief",
+    },
+    {
+        id:6,
+        img:"/src/assets/ack-medisha.png",
+        Desc:"Pain-relief",
+    },
+    {
+        id:7,
+        img:"/src/assets/ack-medisha.png",
+        Desc:"Pain-relief",
+    },
+    {
+        id:8,
+        img:"/src/assets/ack-medisha.png",
+        Desc:"Pain-relief",
+    },
+    {
+        id:9,
+        img:"/src/assets/ack-medisha.png",
+        Desc:"Pain-relief",
+    }
+]
