@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
 import Searchdiv from "../components/Searchdiv";
-import SearchByCategory from '../components/SearchByCategory';
+import SearchByConditions from '../components/SearchByConditions';
 
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
     <div >
         <Navbar/>
         <Searchdiv/>
-        <SearchByCategory/>
+        <SearchByConditions/>
     </div>
   )
 }
