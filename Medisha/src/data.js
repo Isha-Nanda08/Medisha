@@ -88,4 +88,64 @@ export const sliderItems=[
         img:"/src/assets/ack-medisha.png",
         Desc:"Pain-relief",
     }
+];
+
+export const popularProducts=[
+    {
+        id:1,
+        img:"https://images-cdn.ubuy.co.in/6548727cf6f2517974778419-pepto-bismol-ultra-caplets-for-upset.jpg"
+    },
+    {
+        id:2,
+        img:"https://5.imimg.com/data5/SELLER/Default/2022/10/NQ/WD/YO/160829692/2-3--500x500.png"
+    },
+    {
+        id:3,
+        img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
+    },
+    {
+        id:4,
+        img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
+    },
+    {
+        id:5,
+        img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
+    },
+    {
+        id:6,
+        img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
+    },
+    {
+        id:7,
+        img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
+    },
+    {
+        id:8,
+        img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
+    },
+    {
+        id:9,
+        img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
+    },
+    {
+        id:10,
+        img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
+    },
+    {
+        id:11,
+        img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
+    },
+    {
+        id:12,
+        img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
+    },
+    {
+        id:13,
+        img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
+    },
+    {
+        id:14,
+        img:"https://5.imimg.com/data5/SELLER/Default/2022/10/NQ/WD/YO/160829692/2-3--500x500.png"
+    },
+    
 ]

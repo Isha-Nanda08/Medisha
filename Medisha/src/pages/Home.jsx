@@ -3,7 +3,8 @@ import Navbar from "../components/Navbar";
 import Searchdiv from "../components/Searchdiv";
 import SearchByConditions from '../components/SearchByConditions';
 import Slider from '../components/Slider';
-
+import Products from '../components/Products';
+import Footer from '../components/Footer';
 
 const Home = () => {
     
@@ -13,6 +14,8 @@ const Home = () => {
         <Searchdiv/>
         <SearchByConditions/>
         <Slider/>
+        <Products/>
+        <Footer/>
     </div>
   )
 }
