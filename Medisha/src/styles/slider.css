@@ -1,0 +1,24 @@
+/* styles.css */
+#autoplay {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #autoplay li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #autoplay li img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .slider-info {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
