@@ -88,7 +88,7 @@ const Image=styled.img`
 
 `; 
 
-const Login = () => {
+const Register = () => {
   return (
     
     <Container>
@@ -109,4 +109,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Register
