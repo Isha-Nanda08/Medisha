@@ -36,19 +36,27 @@ justify-content:center;
         width:100%;
         height: 100%;
         margin: 0 auto;
-        background-image: url(${backgroundImage});
+        background-image: url('https://d3pxwdeb4y32a1.cloudfront.net/wp-content/uploads/2022/08/online-medicine-delivery-trends.webp');
         background-position: 0 100%, 100% 100%;
-        background-repeat:repeat;
+        /* background-repeat:no-repeat; */
+        /* background-size:cover; */
+        
+        
+
 `;
 const SearchContainer=styled.div`
         padding: 20px 0px;
-        height:95%;
+        height:99%;
         width: 728px;
         text-align: center;
-        background-color: #1a3131;
-        border: 4px solid black;
+        background-color: #2d4545d9;
+        border: 2px solid black;
         border-radius: 10px;
-        margin-top: 0px;`;
+        margin-top: 0px;
+        back
+        `
+
+
 const MainSearch=styled.div`
 width: 100%;
     border: 1px solid #e7e7e7;

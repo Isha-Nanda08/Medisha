@@ -18,6 +18,8 @@ z-index: 20;
     background-color: #fff;
     position: sticky;
     margin:0;
+    background-position: center;
+    /* overflow: hidden; */
     /* position: sticky; */
     top: 0;
     `
