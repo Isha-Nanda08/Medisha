@@ -23,9 +23,9 @@ const Info = styled.div`
 const Container =styled(motion.div)`
     flex: 1;
    
-    margin: 15px;
+    margin: 10px;
     min-height:150px;
-    height: 350px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,8 +44,8 @@ const Container =styled(motion.div)`
 
 `
 const Circle = styled.div`
- width:200px;
- height:200px;
+ width:100px;
+ height:100px;
  border-radius:50%;
  background-color: white;
  position: absolute;

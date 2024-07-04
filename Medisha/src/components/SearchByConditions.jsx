@@ -7,7 +7,7 @@ margin-top:48px;
 display: block;
     align-items: center;
     justify-content: left;
-    border: 5px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     padding:20px;
     background-color: #F7FFF8;

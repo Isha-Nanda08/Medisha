@@ -1,19 +1,23 @@
 /* styles.css */
 #autoplay {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
   }
   
   #autoplay li {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    width:50%;
+    height:50%;
   }
   
   #autoplay li img {
-    width: 100%;
+    width: 80%;
+    height:80%;
     height: auto;
     display: block;
+    padding:20px;
   }
   
   .slider-info {

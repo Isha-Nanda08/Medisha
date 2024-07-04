@@ -139,13 +139,6 @@ export const popularProducts=[
         id:12,
         img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
     },
-    {
-        id:13,
-        img:"https://www.cofsils.com/uploadfile/sub_product/c2.png"
-    },
-    {
-        id:14,
-        img:"https://5.imimg.com/data5/SELLER/Default/2022/10/NQ/WD/YO/160829692/2-3--500x500.png"
-    },
     
-]
+    
+];
