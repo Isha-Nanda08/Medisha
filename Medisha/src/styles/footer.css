@@ -21,6 +21,7 @@
     padding: 0px 20px;
     bottom: 0;
     background-color: #8caeae00;
+    z-index:10;
   }
   
   .footer .row {
@@ -97,6 +98,7 @@
   
   .social-icons a:hover {
     color: #23527c;
+    font-weight: bold;
   }
   
   .copyright {

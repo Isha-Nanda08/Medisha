@@ -36,7 +36,7 @@ justify-content:center;
         width:100%;
         height: 100%;
         margin: 0 auto;
-        background-image: url('https://d3pxwdeb4y32a1.cloudfront.net/wp-content/uploads/2022/08/online-medicine-delivery-trends.webp');
+        background-image: linear-gradient(#2d454585,#2d4545d9),url('https://d3pxwdeb4y32a1.cloudfront.net/wp-content/uploads/2022/08/online-medicine-delivery-trends.webp');
         background-position: 0 100%, 100% 100%;
         /* background-repeat:no-repeat; */
         /* background-size:cover; */
