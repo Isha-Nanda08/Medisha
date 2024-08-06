@@ -6,6 +6,7 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import ShoppingCartOutlined from '@mui/icons-material/ShoppingCartOutlined';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 
 const Container=styled.div`
@@ -58,7 +59,7 @@ const Right=styled.div`
     padding-right:15px;
 `
 
-const Logo=styled.div`
+const Logo=styled.a`
     width: 50px;
     height: 50px;
     /* border: 1px solid black; */
@@ -168,7 +169,7 @@ const Navbar = () => {
    <Container>
         <Wrapper>
             <Left>
-                <Logo>
+                <Logo href="/">
                     <Image src={logo}/>
                 </Logo>
                 <Address onMouseEnter={() => setIsHovered(true)}
@@ -188,7 +189,7 @@ const Navbar = () => {
                             <ShoppingCartOutlined />
                          </Badge>
                     </MenuItem2 >
-                    <MenuItem2>SIGN IN</MenuItem2>
+                    <Link to="/Login" style={{textDecoration:"none"}}>SIGN IN</Link>
             </Right>
         </Wrapper>
         <Wrapper>
