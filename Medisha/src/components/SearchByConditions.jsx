@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import {searchConditions} from "../data";
 import SearchCondition from "./SearchCondition";
+import { Link } from 'react-router-dom';
 
 const Container=styled.div`
 margin-top:48px;
@@ -40,7 +41,9 @@ const SearchByConditions = () => {
       <Title>Search By Health Conditions</Title>
       <SearchHealth>
         {searchConditions.map(item => (
-                    <SearchCondition item={item} key={item.id}/> 
+          <Link to={`/condition/${item.id}`} key={item.id}>
+                    <SearchCondition item={item} /> 
+            </Link>
                 ))
             }
           </SearchHealth>

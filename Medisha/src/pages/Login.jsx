@@ -1,4 +1,6 @@
+import { useState } from "react";
 import styled from "styled-components"
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -89,17 +91,64 @@ const Image=styled.img`
 `; 
 
 const Login = () => {
-  return (
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
+    const navigate = useNavigate();
+    const handleEvent=async (e)=>{
+        e.preventDefault();
+        if (!username || !password) {
+            setError('Please enter both username and password.');
+            return;
+        }
+        
+        setError('');
+        try {
+            // Mock API request (replace with your actual API call)
+            // const response = await fetch('/api/login', {
+            //   method: 'POST',
+            //   headers: {
+            //     'Content-Type': 'application/json',
+            //   },
+            //   body: JSON.stringify({ username, password }),
+            // });
+      
+            // if (!response.ok) {
+            //   throw new Error('Login failed. Please try again.');
+            // }
+      
+            // Handle successful login
+            // const data = await response.json();
+            // console.log('Login successful', data);
+      
+            // Navigate to the homepage or another route
+            navigate('/'); // Redirect to home or another route
+          } catch (error) {
+            setError(error.message);
+          }
+        };
+
+    
+    return (
     
     <Container>
         <Image src='https://www.holdings.toppan.com/en/news/2020/08/t5v1940000000jq1-img/Todokusuri.jpg'/>
         <Wrapper>
             <Title>SIGN IN</Title>
-            <Form>
-                <Input placeholder="username"/>
-                <Input placeholder="password"/>
-                
-                <Button>LOGIN</Button>
+            <Form onClick={handleEvent}>
+            <Input
+            type="text"
+            placeholder="username"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
+          <Input
+            type="password"
+            placeholder="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          <Button type="submit">LOGIN</Button>
                 <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
                 <Link>CREATE A NEW ACCOUNT</Link>
             </Form>
