@@ -13,7 +13,7 @@ const Home = () => {
     <div >
         <Navbar/>
         <Searchdiv/>
-        <SearchByConditions/>
+        {/* <SearchByConditions/> */}
         <Slider/>
         <Products/>
         <Slider/>

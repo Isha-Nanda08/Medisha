@@ -13,6 +13,7 @@ export const searchConditions=[
         id:3,
         desc:"Stomach Care",
         img:"/src/assets/ack-medisha.png",
+        
     },
     {
         id:4,
@@ -28,7 +29,8 @@ export const searchConditions=[
         id:6,
         desc:"respiratory Care",
         img:"/src/assets/ack-medisha.png",
-    },{
+    },
+    {
         id:7,
         desc:"Cold and immunity",
         img:"/src/assets/ack-medisha.png",

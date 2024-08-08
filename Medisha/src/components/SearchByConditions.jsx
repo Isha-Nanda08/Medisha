@@ -41,10 +41,10 @@ const SearchByConditions = () => {
       <Title>Search By Health Conditions</Title>
       <SearchHealth>
         {searchConditions.map(item => (
-          <Link to={`/condition/${item.id}`} key={item.id}>
+          <Link to={`/condition/${item.id}` } key={item.id}>
                     <SearchCondition item={item} /> 
             </Link>
-                ))
+          ))
             }
           </SearchHealth>
     </Container>
