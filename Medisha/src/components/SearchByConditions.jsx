@@ -4,7 +4,7 @@ import SearchCondition from "./SearchCondition";
 import { Link } from 'react-router-dom';
 
 const Container=styled.div`
-margin-top:48px;
+margin-top:70px;
 display: block;
     align-items: center;
     justify-content: left;

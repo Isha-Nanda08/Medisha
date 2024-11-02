@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
           <div className="col-md-4">
             <h3>Follow us on</h3>
-            <div className="wrap">
+            {/* <div className="wrap">
   <div className="social">
     <i className="icon-facebook fb"></i>
     <i className="icon-twitter tw"></i>
@@ -67,7 +67,7 @@ const Footer = () => {
      <i className="icon-dropbox db"></i>
      <i className="icon-apple apple"></i>
   </div>
-</div>
+</div> */}
           </div>
         </div>
       </div>
